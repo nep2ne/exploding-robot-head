@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
 
   font: normal 100%/1.5 sans-serif;
+  overflow: hidden;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -15,21 +17,41 @@ body {
 
 .banner {
   background-color: #2b3851;
+  text-align: center;
 }
 
 .robot {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
   width: 320px;
 }
 
 .robot-body {
+  position: absolute;
   width: 320px;
 }
 
 .robot-brain {
+  position: relative;
+  left: 136px;
+  bottom: 100px;
   width: 46px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+}
+
+.robot-head-right {
+  position: relative;
+  bottom: 40px;
+  left: 145px;
+}
+
+.robot-head-left {
+  position: relative;
+  bottom: 40px;
+  right: 180px;
 }
