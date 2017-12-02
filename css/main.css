@@ -23,6 +23,7 @@ body {
   min-height: 235px;
   text-align: center;
   width: 100%;
+  z-index: 1;
 }
 
 .robot {
@@ -37,6 +38,7 @@ body {
 .robot-body {
   position: absolute;
   width: 320px;
+  z-index: 2;
 }
 
 .robot-brain {
@@ -44,11 +46,13 @@ body {
   left: 136px;
   bottom: 100px;
   width: 46px;
+  z-index: 3;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  z-index: 4;
 }
 
 .robot-head-right {
@@ -67,10 +71,12 @@ body {
   position: relative;
   bottom: 40px;
   left: 145px;
+  z-index: 4;
 }
 
 .robot:hover .robot-head-left {
   position: relative;
   bottom: 40px;
   left: -178px;
+  z-index: 4;
 }
