@@ -26,7 +26,6 @@ body {
 }
 
 .robot {
-  display: inline-block;
   margin: 0;
   position: absolute;
   left: 50%;
@@ -54,24 +53,24 @@ body {
 
 .robot-head-right {
   position: relative;
-  bottom: 45px;
+  bottom: 40px;
   left: 109px;
 }
 
 .robot-head-left {
   position: relative;
-  bottom: 45px;
+  bottom: 40px;
   right: 144px;
 }
 
 .robot:hover .robot-head-right {
   position: relative;
-  bottom: 45px;
+  bottom: 40px;
   left: 145px;
 }
 
 .robot:hover .robot-head-left {
   position: relative;
-  bottom: 45px;
-  right: 180px;
+  bottom: 40px;
+  left: -178px;
 }
