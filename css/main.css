@@ -71,12 +71,10 @@ body {
   position: relative;
   bottom: 40px;
   left: 145px;
-  z-index: 4;
 }
 
 .robot:hover .robot-head-left {
   position: relative;
   bottom: 40px;
   left: -178px;
-  z-index: 4;
 }
