@@ -44,7 +44,7 @@ body {
 .robot-brain {
   position: relative;
   left: 136px;
-  bottom: 100px;
+  bottom: 90px;
   width: 46px;
   z-index: 3;
 }
@@ -69,12 +69,19 @@ body {
 
 .robot:hover .robot-head-right {
   position: relative;
-  bottom: 40px;
+  bottom: 50px;
   left: 145px;
 }
 
 .robot:hover .robot-head-left {
   position: relative;
-  bottom: 40px;
+  bottom: 50px;
   left: -178px;
+}
+
+.robot:hover .robot-brain {
+  position: relative;
+  bottom: 110px;
+  left: 136px;
+  z-index: 3;
 }
